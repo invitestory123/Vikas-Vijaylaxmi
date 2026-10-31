@@ -1,0 +1,403 @@
+/* ============================================================
+   VIKAS & VIJAYLAXMI WEDDING CELEBRATION CUSTOM STYLES
+   ============================================================ */
+
+/* Typography & Base Tokens */
+:root {
+  --royale-gold: #b48c3d;
+  --royale-gold-dark: #916e28;
+  --royale-gold-light: #d8ba72;
+  --royale-burgundy: #6c232c;
+  --royale-sepia: #5c4433;
+  --royale-muted: #846f61;
+  --royale-parchment: #f9f0e0;
+  --royale-card-bg: rgba(255, 255, 255, 0.82);
+  --royale-border: rgba(180, 140, 61, 0.35);
+  --royale-shadow: 0 6px 20px rgba(166, 125, 43, 0.12);
+}
+
+/* ------------------------------------------------------------
+   SCHEDULE / ITINERARY SECTION (#rec2487446103)
+   ------------------------------------------------------------ */
+#rec2487446103 {
+  background-color: var(--royale-parchment) !important;
+  padding: 40px 15px 50px !important;
+  overflow: visible !important;
+}
+
+#rec2487446103 .t396__artboard {
+  height: auto !important;
+  min-height: auto !important;
+  overflow: visible !important;
+}
+
+.royale-itinerary-wrap {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  font-family: 'Ovo', Georgia, serif;
+  color: var(--royale-sepia);
+  position: relative;
+  z-index: 5;
+}
+
+.royale-itinerary-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.royale-itinerary-subtitle {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 13px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--royale-gold-dark);
+  margin-bottom: 8px;
+}
+
+.royale-itinerary-title {
+  font-family: 'Cinzel', 'NewFonts', Georgia, serif;
+  font-size: 38px;
+  font-weight: 500;
+  color: #a67d2b;
+  margin: 0 0 12px 0;
+  letter-spacing: 0.04em;
+}
+
+@media screen and (max-width: 640px) {
+  .royale-itinerary-title {
+    font-size: 28px;
+  }
+}
+
+.royale-decor-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 auto 10px;
+  opacity: 0.85;
+}
+
+.royale-divider-line {
+  width: 70px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--royale-gold), transparent);
+}
+
+.royale-divider-diamond {
+  color: var(--royale-gold);
+  font-size: 12px;
+}
+
+/* Day Selector Tabs */
+.royale-day-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto 32px;
+}
+
+.royale-day-tab {
+  padding: 10px 22px;
+  border-radius: 30px;
+  border: 1px solid var(--royale-border);
+  background: rgba(255, 255, 255, 0.75);
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+  color: var(--royale-sepia);
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  outline: none;
+  box-shadow: 0 3px 8px rgba(166, 125, 43, 0.08);
+}
+
+.royale-day-tab:hover {
+  background: #ffffff;
+  border-color: var(--royale-gold);
+  color: var(--royale-gold-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(166, 125, 43, 0.16);
+}
+
+.royale-day-tab.is-active {
+  background: linear-gradient(135deg, #a67d2b, #8a651e);
+  color: #ffffff;
+  border-color: #8a651e;
+  box-shadow: 0 4px 15px rgba(166, 125, 43, 0.35);
+  font-weight: 600;
+}
+
+/* Timeline Cards */
+.royale-days-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.royale-day-card {
+  background: var(--royale-card-bg);
+  border: 1px solid var(--royale-border);
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: var(--royale-shadow);
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.royale-day-card:hover {
+  border-color: var(--royale-gold);
+  box-shadow: 0 8px 24px rgba(166, 125, 43, 0.18);
+}
+
+.royale-day-badge {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(180, 140, 61, 0.25);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+
+.royale-day-badge.is-highlight {
+  border-bottom-color: var(--royale-gold);
+}
+
+.royale-day-num {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #8a651e;
+}
+
+.royale-day-date {
+  font-size: 14.5px;
+  font-style: italic;
+  color: var(--royale-muted);
+}
+
+.royale-events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.royale-event-item {
+  display: grid;
+  grid-template-columns: 170px 24px 1fr;
+  align-items: start;
+  gap: 14px;
+  position: relative;
+}
+
+@media screen and (max-width: 640px) {
+  .royale-event-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding-left: 20px;
+    border-left: 2px solid rgba(180, 140, 61, 0.35);
+  }
+}
+
+.royale-event-time {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7d1f27;
+  letter-spacing: 0.04em;
+  text-align: right;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 640px) {
+  .royale-event-time {
+    text-align: left;
+    font-size: 14px;
+    color: #8a651e;
+  }
+}
+
+.royale-event-dot {
+  width: 10px;
+  height: 10px;
+  background: var(--royale-gold);
+  border-radius: 50%;
+  margin: 6px auto 0;
+  box-shadow: 0 0 0 3px rgba(180, 140, 61, 0.2);
+}
+
+@media screen and (max-width: 640px) {
+  .royale-event-dot {
+    display: none;
+  }
+}
+
+.royale-event-body {
+  padding-top: 0;
+}
+
+.royale-event-title {
+  font-family: 'NewFonts', 'Ovo', Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f2a1d;
+  margin: 0 0 4px 0;
+  line-height: 1.3;
+}
+
+.royale-event-note {
+  font-size: 14px;
+  color: var(--royale-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ------------------------------------------------------------
+   DUAL VENUE SECTION (#rec2487446163)
+   ------------------------------------------------------------ */
+#rec2487446163 {
+  background-color: var(--royale-parchment) !important;
+  overflow: visible !important;
+  padding: 30px 15px 50px !important;
+}
+
+#rec2487446163 .t396__artboard {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.royale-venues-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 26px;
+  max-width: 860px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.royale-venue-card {
+  border-radius: 18px;
+  background: var(--royale-card-bg);
+  border: 1px solid var(--royale-border);
+  box-shadow: var(--royale-shadow);
+  padding: 30px 24px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Ovo', Georgia, serif;
+  color: var(--royale-sepia);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.royale-venue-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--royale-gold);
+  box-shadow: 0 10px 28px rgba(166, 125, 43, 0.2);
+}
+
+.royale-venue-tag {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--royale-gold-dark);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.royale-venue-date {
+  font-size: 13.5px;
+  color: var(--royale-muted);
+  font-style: italic;
+  margin-bottom: 14px;
+}
+
+.royale-venue-name {
+  font-family: 'Cinzel', 'NewFonts', Georgia, serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #7d1f27;
+  margin: 0 0 10px 0;
+  line-height: 1.3;
+}
+
+.royale-venue-time {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--royale-gold-dark);
+  margin-bottom: 12px;
+}
+
+.royale-venue-addr {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--royale-sepia);
+  margin-bottom: 22px;
+  min-height: 46px;
+}
+
+.royale-venue-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.royale-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #7d1f27, #5a0f1b);
+  color: #ffffff !important;
+  text-decoration: none;
+  border-radius: 25px;
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(125, 31, 39, 0.25);
+}
+
+.royale-btn-primary:hover {
+  background: linear-gradient(135deg, #912730, #6e1622);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(125, 31, 39, 0.35);
+  color: #ffffff !important;
+}
+
+.royale-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 22px;
+  background: transparent;
+  color: var(--royale-gold-dark) !important;
+  text-decoration: none;
+  border: 1.5px solid var(--royale-gold);
+  border-radius: 25px;
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 11.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.royale-btn-secondary:hover {
+  background: rgba(180, 140, 61, 0.12);
+  border-color: var(--royale-gold-dark);
+  color: #634a17 !important;
+  transform: translateY(-2px);
+}
