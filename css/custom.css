@@ -17,6 +17,153 @@
 }
 
 /* ------------------------------------------------------------
+   INVITATION CARD SECTION (#rec2487446043)
+   Fix for Issue 1: Prevent text overflowing off torn paper card
+   ------------------------------------------------------------ */
+#rec2487446043 {
+  overflow: visible !important;
+}
+
+#rec2487446043 .t396__artboard {
+  overflow: visible !important;
+}
+
+/* Decor Ornament (acomm-decor.png) */
+#rec2487446043 .tn-elem[data-elem-id="1782312134224"] {
+  top: 780px !important;
+  left: calc(50% - 110px) !important;
+  width: 220px !important;
+  height: auto !important;
+  margin: 0 auto !important;
+}
+#rec2487446043 .tn-elem[data-elem-id="1782312134224"] .tn-atom__img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* Subtitle ("Two Souls · One Destiny · Beginning Our Forever") */
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] {
+  top: 840px !important;
+  left: calc(50% - 260px) !important;
+  width: 520px !important;
+  height: auto !important;
+  display: block !important;
+  text-align: center !important;
+}
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] .tn-atom {
+  font-family: 'NewFonts', Arial, sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 32px !important;
+  line-height: 1.15 !important;
+  color: #a67d2b !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+/* Invitation Note ("Dear Family and Friends...") */
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] {
+  top: 900px !important;
+  left: calc(50% - 220px) !important;
+  width: 440px !important;
+  height: auto !important;
+  display: block !important;
+  text-align: center !important;
+}
+#rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] .tn-atom {
+  font-family: 'NewFonts', Arial, sans-serif !important;
+  font-weight: 100 !important;
+  font-size: 16px !important;
+  line-height: 1.55 !important;
+  color: #6a5140 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  padding: 0 10px !important;
+  box-sizing: border-box !important;
+}
+
+/* Tablet (max-width: 959px) */
+@media screen and (max-width: 959px) {
+  #rec2487446043 .tn-elem[data-elem-id="1782312134224"] {
+    top: 780px !important;
+    left: calc(50% - 95px) !important;
+    width: 190px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] {
+    top: 835px !important;
+    left: calc(50% - 200px) !important;
+    width: 400px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] .tn-atom {
+    font-size: 26px !important;
+    line-height: 1.15 !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] {
+    top: 895px !important;
+    left: calc(50% - 180px) !important;
+    width: 360px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] .tn-atom {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+}
+
+/* Phablet / Small Tablet (max-width: 639px) */
+@media screen and (max-width: 639px) {
+  #rec2487446043 .tn-elem[data-elem-id="1782312134224"] {
+    top: 780px !important;
+    left: calc(50% - 90px) !important;
+    width: 180px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] {
+    top: 835px !important;
+    left: calc(50% - 170px) !important;
+    width: 340px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] .tn-atom {
+    font-size: 24px !important;
+    line-height: 1.15 !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] {
+    top: 895px !important;
+    left: calc(50% - 160px) !important;
+    width: 320px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] .tn-atom {
+    font-size: 14.5px !important;
+    line-height: 1.45 !important;
+  }
+}
+
+/* Mobile (max-width: 479px) */
+@media screen and (max-width: 479px) {
+  #rec2487446043 .tn-elem[data-elem-id="1782312134224"] {
+    top: 780px !important;
+    left: calc(50% - 80px) !important;
+    width: 160px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] {
+    top: 835px !important;
+    left: calc(50% - 145px) !important;
+    width: 290px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000003"] .tn-atom {
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] {
+    top: 890px !important;
+    left: calc(50% - 140px) !important;
+    width: 280px !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1780748008617000005"] .tn-atom {
+    font-size: 14px !important;
+    line-height: 1.45 !important;
+  }
+}
+
+/* ------------------------------------------------------------
    SCHEDULE / ITINERARY SECTION (#rec2487446103)
    ------------------------------------------------------------ */
 #rec2487446103 {
