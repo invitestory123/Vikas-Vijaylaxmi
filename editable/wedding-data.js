@@ -118,6 +118,6 @@ window.WEDDING_DATA = {
     overlayImage: "./editable/assets/ChatGPT Image Jun 23, 2026, 04_40_29 PM.png",
     sealVideo: "./editable/assets/1782224012851.mp4",
     heroVideo: "./editable/assets/Swans2.mov",
-    audio: "./editable/assets/dil-diyan-gallan.mp3",
+    audio: "./editable/assets/dil-diyan-gallan-flute.mp3",
   },
 };
