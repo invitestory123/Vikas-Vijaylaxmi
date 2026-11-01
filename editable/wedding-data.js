@@ -7,6 +7,7 @@ window.WEDDING_DATA = {
     groom: "Vikas",
     bride: "Vijaylaxmi",
     groomParents: "Mrs Chander & Mr Sham Sunder",
+    brideParents: "Smt Sheela Devi & Late Sh. Jai Ram",
     subtitle: "Two Souls · One Destiny · Beginning Our Forever",
   },
 
@@ -14,7 +15,7 @@ window.WEDDING_DATA = {
     dateLabel: "02.12.26",
     longDate: "Wednesday, 2nd December 2026",
     dateISO: "2026-12-02T19:00:00+05:30",
-    invitationNote: "Dear Family and Friends,<br />With the heavenly blessings of our ancestors and the loving blessings of Mrs Chander & Mr Sham Sunder, we joyfully invite you to join us in celebrating the wedding festivities of Vikas & Vijaylaxmi as they embark upon their journey of lifetime together.",
+    invitationNote: "Dear Family and Friends,<br />With the heavenly blessings of our ancestors and the loving blessings of Mrs Chander & Mr Sham Sunder and Smt Sheela Devi & Late Sh. Jai Ram, we joyfully invite you to join us in celebrating the wedding festivities of Vikas & Vijaylaxmi as they embark upon their journey of lifetime together.",
   },
 
   scheduleDays: [
@@ -110,13 +111,13 @@ window.WEDDING_DATA = {
 
   details: {
     giftPreference: "Your presence and blessings are our greatest gift. Kindly, no boxed gifts please.",
-    dressCode: "Traditional / Festive Indian Attire",
+    dressCode: "",
   },
 
   media: {
     overlayImage: "./editable/assets/ChatGPT Image Jun 23, 2026, 04_40_29 PM.png",
     sealVideo: "./editable/assets/1782224012851.mp4",
     heroVideo: "./editable/assets/Swans2.mov",
-    audio: "./editable/assets/Einaudi_ Divenire (1) (1).mp3",
+    audio: "./editable/assets/dil-diyan-gallan.mp3",
   },
 };
